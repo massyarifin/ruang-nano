@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Nano Learning</title>
+    <link rel="stylesheet" href="css/stylesindex.css">
+    <script src="js/logoutMessage.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ruang Nano Learning</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="recommendations.html">Rekomendasi Materi</a></li>
+                <li><a href="results.html">Hasil Evaluasi</a></li>
+                <li><a href="subjects.html">Mata Pelajaran</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="logoutMessage"></div>
+        <div class="home-container">
+            <div class="content-container">
+                <h2>Selamat Datang di Ruang Nano Learning</h2>
+                <p>Belajar dengan Optimal, Asik, dan Dahsyat</p>
+                <p>Ruang Nano Akan Mengajak Kamu Untuk Belajar dengan Materi yang Ringkas, Padat, dan Bermakna</p>
+                <div class="login-container">
+                    <a href="login.html" class="login-button">Ayo Coba Nano Learning</a>
+                </div>
+            </div>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="images/slide1.png" alt="Slide 1"></div>
+                    <div class="slide"><img src="images/slide2.png" alt="Slide 2"></div>
+                    <div class="slide"><img src="images/slide3.png" alt="Slide 3"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nano Learning. All rights reserved.</p>
+    </footer>
+    <script src="js/slider.js"></script>
+
+    <!-- Modal Pop-up for Logout Notification -->
+    <div id="logoutModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p id="logoutMessage"></p>
+        </div>
+    </div>
+</body>
+</html>

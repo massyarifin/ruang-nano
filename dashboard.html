@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Nano Learning</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="js/checkLogin.js" defer></script>
+    <script src="js/logout.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dashboard Nano Learning</h1>
+        <nav>
+            <ul>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="recommendations.html">Rekomendasi Materi</a></li>
+                <li><a href="results.html">Hasil Evaluasi</a></li>
+                <li><a href="subjects.html">Mata Pelajaran</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="dashboard-container">
+            <div class="profile-container">
+                <div class="profile-info">
+                    <img id="profile-image" src="images/tingkat-1.png" alt="Profile Image">
+                    <div id="profile-caption">Level-1</div>
+                    <div id="profile-head-balloon" class="profile-head-balloon">Aku masih level-1, aku harus berjuang lagi</div>
+                </div>
+            </div>
+            <div class="stamina-indicator">
+                <div class="stamina-bar-container">
+                    <div class="stamina-bar">
+                        <span class="subject-name">Matematika</span>
+                        <div class="stamina-fill" id="stamina-fill-1"></div>
+                    </div>
+                    <div class="stamina-bar">
+                        <span class="subject-name">Bahasa Indonesia</span>
+                        <div class="stamina-fill" id="stamina-fill-2"></div>
+                    </div>
+                    <div class="stamina-bar">
+                        <span class="subject-name">IPA</span>
+                        <div class="stamina-fill" id="stamina-fill-3"></div>
+                    </div>
+                    <div class="stamina-bar">
+                        <span class="subject-name">IPS</span>
+                        <div class="stamina-fill" id="stamina-fill-4"></div>
+                    </div>
+                    <div class="stamina-bar">
+                        <span class="subject-name">Bahasa Inggris</span>
+                        <div class="stamina-fill" id="stamina-fill-5"></div>
+                    </div>
+                    <div class="stamina-bar">
+                        <span class="subject-name">Pendidikan Agama</span>
+                        <div class="stamina-fill" id="stamina-fill-6"></div>
+                    </div>
+                    <div class="stamina-bar">
+                        <span class="subject-name">Pendidikan Kewarganegaraan</span>
+                        <div class="stamina-fill" id="stamina-fill-7"></div>
+                    </div>
+                    <div class="stamina-bar">
+                        <span class="subject-name">Seni Budaya</span>
+                        <div class="stamina-fill" id="stamina-fill-8"></div>
+                    </div>
+                    <div class="stamina-text" id="stamina-text">Stamina: 0%</div>
+                </div>
+            </div>
+            <div class="menu-container">
+                <div class="menu-row">
+                    <a href="forum.html" class="menu-item">
+                        <img src="images/forum-icon.png" alt="Forum">
+                        <p>Forum</p>
+                    </a>
+                    <a href="recommendations.html" class="menu-item">
+                        <img src="images/recommendations-icon.png" alt="Rekomendasi Materi">
+                        <p>Rekomendasi Materi</p>
+                    </a>
+                </div>
+                <div class="menu-row">
+                    <a href="results.html" class="menu-item">
+                        <img src="images/results-icon.png" alt="Hasil Evaluasi">
+                        <p>Hasil Evaluasi</p>
+                    </a>
+                    <a href="subjects.html" class="menu-item">
+                        <img src="images/subjects-icon.png" alt="Mata Pelajaran">
+                        <p>Mata Pelajaran</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nano Learning. All rights reserved.</p>
+    </footer>
+    <script src="js/profile.js"></script>
+</body>
+</html>
